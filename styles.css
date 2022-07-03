@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+    background-color: #19a1ad;
+    height: 400px;
+    background-image: url(images/bg-pattern-bottom.svg);
+}
+
+.container{
+    height: 350px;
+    min-width: 25%;
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+  
+}
+.container .logo{
+    background-image: url(images/bg-pattern-card.svg);
+    height: 130px;
+    border-radius: 10px 10px 0 0;
+}
+
+.pics{
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+}
+
+.pics img{
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.text{
+    text-align: center;
+    padding: 20px;
+    line-height: 30px;
+}
+
+.text h2 span{
+    opacity: .5;
+}
+
+.text p{
+    opacity: .5;
+}
+
+.text2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 20px;
+}
+
+.text2 p{
+opacity: .5;
+font-size: 12px;
+}
+
+.attribution{
+    position: absolute;
+    bottom: 20px;
+
+}
